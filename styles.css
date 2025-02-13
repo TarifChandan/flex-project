@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* centering all the content */
+.center-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  background: #1f2937;
+  padding: 15px 0;
+}
+
+.header .center-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.menu a {
+  padding: 10px 20px;
+  color: #e5e7eb;
+}
