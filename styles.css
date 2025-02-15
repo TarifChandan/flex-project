@@ -51,3 +51,53 @@ a {
   padding: 10px 20px;
   color: #e5e7eb;
 }
+
+/* HERO CONTAINER */
+.hero-container {
+  background: #1f2937;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-container .center-container {
+  display: flex;
+  align-items: center;
+}
+
+.left-column {
+  flex-basis: 55%;
+}
+
+.right-column {
+  flex-basis: 45%;
+}
+
+.left-column {
+  padding-right: 50px;
+}
+
+.left-column h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 20px;
+}
+
+.left-column p {
+  padding-right: 90px;
+  line-height: 1.5;
+}
+
+.left-column button {
+  margin-top: 35px;
+  background: #3b82f6;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.right-column img {
+  width: 100%;
+}
